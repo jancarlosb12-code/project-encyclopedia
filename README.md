@@ -85,3 +85,7 @@ Not doing:
 \#\# 6\. Open Questions  
 \*What am I still unsure about? What do I need to figure out or test first?\*  
 \- I am still unsure of how I want parts of the application structured to make everything fit together cleanly. I need to test whether the user can open up documents and move them properly since it is one of the main functions of the code.
+
+Demo:
+Runs locally
+
