@@ -1,46 +1,87 @@
-# Project Encyclopedia Demo
+\# Project Encyclopedia
 
-This repository was originally a project concept and prototype, but it was not yet structured as a runnable website. I created a minimal full-stack demo setup so it can run locally:
+Product to help with focusing on one project at a time (keeps track of project details and related information). It is for me.
 
-- A small React frontend for the calendar UI
-- A simple Express backend with JSON persistence
-- Local API endpoints for saving and retrieving project notes by date
+Author: Jancarlos Blanco· Course: CMP 464/343 Product 1 · Last updated: 09/28/2026
 
-## Run the app
+\#\# 1\. About Me (the User)
 
-### 1) Start the backend
+\*Who am I in the context of this problem? What roles am I playing (student, employee, parent, athlete, gamer…)?\*  
+I am the stakeholder and user in the context of this problem and I am playing the role as someone who has multiple projects they want to keep track of and work on. I also want to keep all the information on each individual project in this one product.
 
-```bash
-cd backend
-npm install
-npm start
-```
+\*\*The last 3 times this happened:\*\*
 
-The API will run at:
+1\. When writing a short story I eventually gave up on writing it because I lost motivation and couldn’t focus on finishing it.  
+2\. I often work on school assignments when I find time to do them instead of organizing specific times where I can go over everything I need to do.  
+3\. I often open multiple apps when looking for information on projects as it is often in different places like google docs, github, or other platforms.
 
-- `http://localhost:4000/api/health`
+\*\*What it costs me:\*\*
 
-### 2) Start the frontend
+\- ⏱️ Time: Hours  
+\- 💸 Money:  
+\- 🔋 Energy:   
+\- 🙂 Joy:
 
-Open a second terminal and run:
+\---
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+\#\# 2\. Problem Statement
 
-Then open:
+Gut check:
 
-- `http://localhost:5173`
+\> I need project organization because it leads me to be inefficient or not have time for personal projects.
 
-## Demo features
+\*\*Five Whys:\*\*  
+1\. To save Time  
+2\. To organize information  
+3\. To break down project steps  
+4\. To gain motivation for personal projects  
+5\. To divide my projects for school/work and personal hobbies
 
-- Calendar view for October 2026
-- Click any day to manage notes for that date
-- Save text entries through the backend API
-- Stored items persist in `backend/data/items.json`
+Problem statement:
 
-## Notes
+\> When a project is unorganized and I don’t know what steps I should take next,  
+\> I struggle to be efficient with making progress on projects,  
+\> which costs me time and joy.  
+\> This happens because I am unorganized which causes me to lose motivation.  
+\> Right now I try to use a calendar, but it isn’t specific enough to organize different projects and keep the important information needed in one place.
 
-This is a minimal working demo, designed to make the concept usable locally. It is intentionally simple and can be expanded for a fuller product experience.
+I'll know this is solved when: I am able to get projects done more efficiently.
+
+\---
+
+\#\# 3\. Existing Solutions
+
+I’ve tried calendar apps and it is good at remembering appointments or deadlines, but it isn’t good enough at organizing projects and keeping important information in one place.
+
+The gap: What is missing is a calendar specifically for dividing a calendar by days which I will do specific project steps and keeping the information for those steps on one calendar without keeping things like documents, files, or contacts in different applications.  
+\---
+
+\#\# 4\. Features & Benefits
+
+| Feature (what it does) | Benefit (how my life gets better) | MVP or Later? |  
+MVP (2–3 features):-   
+\- Project step division: ability to divide a project into concrete steps and place them on specific days and timeframes.  
+\- Information pockets: ability to put information with the specific project steps in order to keep relevant information accessible when doing relevant tasks.
+
+Later:  
+\- Ability to open certain applications or documents from information pockets
+
+Not doing:  
+\- Setting alarms  
+\- Inviting collaborators (Not yet, this is still mostly for personal projects)
+
+\---  
+\#\# 5\. Tech Stack  
+\#\#\# Front end  
+\- Surface: Web (for now)  
+\- Tools: java/phython  
+\- Why: I find this surface and tools the easiest to use for me. 
+
+\#\#\# Back end  
+| Server / API  \-\> Next.js  
+| Data storage  \-\> A JSON file  
+| Hosting / deploy \-\> My own machine
+
+\#\# 6\. Open Questions  
+\*What am I still unsure about? What do I need to figure out or test first?\*  
+\- I am still unsure of how I want parts of the application structured to make everything fit together cleanly. I need to test whether the user can open up documents and move them properly since it is one of the main functions of the code.
