@@ -86,6 +86,11 @@ Not doing:
 \*What am I still unsure about? What do I need to figure out or test first?\*  
 \- I am still unsure of how I want parts of the application structured to make everything fit together cleanly. I need to test whether the user can open up documents and move them properly since it is one of the main functions of the code.
 
-Demo:
-Runs locally
+Demo:Runs locally
+<img width="1440" height="900" alt="Screen Shot 2026-11-02 at 6 15 15 PM" src="https://github.com/user-attachments/assets/524e6d4f-be05-4e7b-ad6e-513fe75dabe2" />
+
+
+
+
+
 
